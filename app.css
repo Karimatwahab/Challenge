@@ -1,0 +1,106 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+}
+
+body {
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+
+.container {
+     background-color: #f7f2f2;
+     border-radius: 10px;
+     padding: 100px;
+     width: 100%;
+     max-width: 950px;
+     display: flex;
+     flex-direction: row;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+.sedan {
+     background-color: #ffa500;
+}
+
+.suv {
+     background-color: #008080;
+}
+
+.luxury {
+     background-color: #0a4242;
+}
+
+.img {
+     mix-blend-mode: multiply;
+     max-width: 50px;
+     margin: 40px;
+
+}
+
+h2 {
+     color: white;
+     margin: 25px;
+     font-weight: bold;
+}
+
+p {
+     color: white;
+     font-size: 15px;
+     margin: 40px;
+     font-size: medium;
+}
+
+#learnmore1 {
+     border: 1px solid white;
+     display: inline-block;
+     margin: 30px;
+     padding: 10px 25px;
+     border-radius: 20px;
+     text-decoration: none;
+     background-color: white;
+     color: orange;
+}
+
+#learnmore2 {
+     border: 1px solid white;
+     display: inline-block;
+     margin: 30px;
+     padding: 10px 25px;
+     border-radius: 20px;
+     text-decoration: none;
+     background-color: white;
+     color: #008080;
+}
+
+#learnmore3 {
+     border: 1px solid white;
+     display: inline-block;
+     margin: 30px;
+     padding: 10px 25px;
+     border-radius: 20px;
+     text-decoration: none;
+     background-color: white;
+     color: #0a4242;
+}
+
+@media(max-width: 100px) {
+     .container {
+          display: inline;
+          flex-direction: row;
+     }
+
+     img {
+          width: 50px;
+     }
+
+     .sedan {
+          background-color: #ffa500;
+     }
+}
